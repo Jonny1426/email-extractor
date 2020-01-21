@@ -14,7 +14,7 @@ try:
             print('Quantidade de emails encontrados:', len(padrao))
             print(padrao)
 
-            arquivo = open('email.txt', 'w')
+            arquivo = open('email.txt', 'a')
 
             for email in padrao:
                 arquivo.write(email+'\n')
